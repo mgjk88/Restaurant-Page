@@ -41,8 +41,8 @@ function menu(){
     hding.textContent = 'Menu';
 
     let dinoNuggets = new card('Dino Nuggets: A Roaringly Good Snack!',
-        'Sink your teeth into our delicious Dino Nuggets, the ultimate treat for kids and adults alike! These golden, crispy nuggets are shaped like your favorite dinosaurs, bringing a playful twist to mealtime. Made with high-quality chicken and seasoned to perfection, they’re crunchy on the outside, juicy on the inside, and bursting with flavor. Perfect as a snack, meal, or party favorite, our Dino Nuggets are served with your choice of dipping sauces like tangy BBQ, creamy ranch, or classic ketchup. Grab a plate today and take a bite out of prehistoric perfection! 🦖✨',
-        dinoNuggetsImg);
+        "Sink your teeth into our Dino Nuggets—crispy, golden treats shaped like dinosaurs! Made with high-quality chicken, they’re juicy, flavorful, and perfect for kids and adults. Enjoy as a snack, meal, or party favorite with dipping sauces like BBQ, ranch, or ketchup. Take a bite out of prehistoric perfection today! 🦖✨", 
+        dinoNuggetsImg)
     menu.append(hding, dinoNuggets.makeHTML());
     content.appendChild(menu);
     document.body.appendChild(content);
